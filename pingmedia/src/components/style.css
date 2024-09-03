@@ -1,0 +1,19 @@
+.line-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+}
+
+.horizontal-line {
+  height: 4px; /* Height of the line */
+  width: 0; /* Initial width is 0 to animate from this */
+  background-color: black; /* Color of the line */
+  position: relative;
+}
