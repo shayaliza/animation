@@ -2,7 +2,7 @@ import Cursor from "./pages/cursor/cursor";
 function App() {
   return (
     <>
-      <div>Hello</div>
+      {/* <div>Hello</div> */}
       <Cursor />
     </>
   );
